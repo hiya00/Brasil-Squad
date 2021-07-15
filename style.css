@@ -1,0 +1,522 @@
+            /* Google Font Add */
+            
+            @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+            html {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                margin: 0px;
+                padding: 0px;
+                height: 100vh;
+                font-family: 'Bree Serif', serif;
+            }
+            /* Header Style */
+            
+            .head-container {
+                background-color: #fedf00;
+            }
+            /* NavBar Style */
+            
+            .nav-container {
+                display: flex;
+                padding: 10px;
+                margin-left: 30px;
+            }
+            
+            nav ul {
+                display: flex;
+            }
+            
+            .nav-li {
+                list-style-type: none;
+                padding: 15px;
+            }
+            
+            .nav-li a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            .nav-li:hover {
+                border-bottom: 1px solid #009b3a;
+            }
+            /* Login Button Style */
+            
+            .login-btn {
+                margin-left: 550px;
+                width: 90px;
+                height: 30px;
+                margin-top: 27px;
+                background: #009b3a;
+                color: white;
+                border-radius: 3px;
+                border: none;
+                text-align: center;
+                font-weight: bold;
+            }
+            /* Section */
+            /* Banner Container */
+            
+            .banner-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                transition: all 1s ease-in-out;
+            }
+            /* Text Container */
+            
+            .text-container {
+                color: white;
+                padding: 30px;
+                margin-left: 63px;
+                font-size: 40px;
+            }
+            
+            .text-container h1 {
+                margin-bottom: 0px;
+            }
+            /* Animation add on banner container */
+            
+            .head-container:hover .banner-container {
+                transform: scaleY(1.1);
+                transform: scaleX(-1);
+                background: -webkit-linear-gradient(#009b3a, green);
+                -webkit-background-clip: text;
+            }
+            
+            .head-container:hover h1 {
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                unicode-bidi: bidi-override;
+                direction: ltr;
+            }
+            
+            .head-container:hover .watch-btn {
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                unicode-bidi: bidi-override;
+                direction: ltr;
+            }
+            /* animation added */
+            /* Span */
+            
+            .brasil-text-colour {
+                color: #009b3a;
+            }
+            /* Banner Image Sizing */
+            
+            .banner-img img {
+                width: 500px;
+                height: 350px;
+                margin-left: 80px;
+                margin-top: 30px;
+            }
+            /*watch button design  */
+            
+            .watch-btn {
+                width: 110px;
+                height: 30px;
+                background: #009b3a;
+                color: white;
+                border-radius: 3px;
+                border: none;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            .link-decoration {
+                text-decoration: none;
+                color: white;
+            }
+            /* main */
+            /* section */
+            /* article */
+            /* card */
+            
+            .card-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                justify-content: center;
+                align-items: center;
+                padding: 80px;
+                width: 76%;
+                margin-left: 100px;
+            }
+            /* Player Card */
+            
+            .player-card {
+                width: 300px;
+                height: 474px;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                border-radius: 2px;
+                padding: 10px;
+                margin-top: 25px;
+            }
+            /* player image */
+            
+            .player-img {
+                width: 300px;
+                height: 256px;
+            }
+            
+            .leaderboad-text h2 {
+                text-align: center;
+                background: #002776;
+                width: 35%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                color: white;
+                border-radius: 3px;
+                word-spacing: 7px;
+            }
+            
+            .three {
+                color: #fedf00;
+            }
+            
+            .leader {
+                color: #fedf00;
+            }
+            
+            .player-leaderboard {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin-left: 50px;
+                padding: 10px;
+            }
+            
+            .best-player {
+                display: flex;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                border-radius: 7px;
+                margin: 3px;
+                width: 380px;
+                height: 150px;
+                color: white;
+                padding: 10px;
+            }
+            
+            .scorer-img img {
+                width: 200px;
+                height: 150px;
+                margin-left: 30px;
+                border-radius: 7px;
+            }
+            
+            .first-card {
+                color: #002776;
+            }
+            
+            .second-card {
+                color: #002776;
+            }
+            
+            .third-card {
+                color: #002776;
+            }
+            
+            .top-scorer h5 {
+                color: black;
+                padding: 4px;
+            }
+            
+            .top-scorer {
+                padding: 4px;
+                margin-left: 5px;
+            }
+            
+            .videos-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 20px;
+            }
+            
+            .videos-image img {
+                height: 300px;
+                margin-left: 80px;
+                margin-top: 40px;
+                height: 300px;
+                box-shadow: 5px 5px 3px gray;
+            }
+            
+            .videos-title {
+                width: 80%;
+                margin-left: 80px;
+            }
+            
+            .videos-title h1 {
+                font-size: 45px;
+            }
+            
+            .watchvideos-btn {
+                width: 150px;
+                height: 30px;
+                background: #009b3a;
+                color: white;
+                border-radius: 3px;
+                border: none;
+                text-align: center;
+                font-weight: bold;
+            }
+            
+            .team-manager {
+                background-image: url('https://wallpaperaccess.com/full/92268.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 640px;
+                opacity: 1;
+            }
+            
+            .team-title h1 {
+                color: white;
+                text-align: center;
+                padding: 20px;
+                font-size: 50px;
+                word-spacing: 10px;
+                margin-top: 30px;
+            }
+            
+            .team-title p {
+                color: white;
+                font-size: 20px;
+            }
+            
+            .read-btn {
+                color: black;
+                font-weight: bold;
+            }
+            
+            .footer-logo img {
+                width: 250px;
+            }
+            
+            .footer-logo {
+                text-align: center;
+                margin-top: 50px;
+            }
+            
+            .social-icon i {
+                padding: 10px;
+                font-size: 30px;
+                color: #fedf00;
+            }
+            
+            .social-icon {
+                padding-top: 30px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            .credit-text {
+                color: #009b3a;
+                text-align: center;
+                margin-top: 5px;
+            }
+            
+            .fa-star {
+                color: gold;
+            }
+            
+            .table-style {
+                margin: 0 auto;
+                border-collapse: collapse;
+                width: 50%;
+                box-shadow: 10px 10px 5px gray;
+            }
+            
+            th {
+                font-size: 25px;
+            }
+            
+            td,
+            th {
+                border: 2px solid gray;
+                padding: 20px;
+            }
+            
+            .table-head {
+                text-align: center;
+                font-size: 30px;
+            }
+            /* Responsive  Mobile Phone */
+            
+            @media screen and (max-width:580px) {
+                .card-container {
+                    width: 50%;
+                    display: block;
+                    margin-left: 5px;
+                    margin-bottom: 20px;
+                    padding-top: 15px;
+                }
+                .banner-container {
+                    width: 100%;
+                    display: block;
+                }
+                .banner-img img {
+                    width: 80%;
+                }
+                .watch-btn {
+                    width: 160px;
+                    text-align: center;
+                    height: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .nav-ul {
+                    display: none;
+                }
+                .login-btn {
+                    margin-left: 80%;
+                }
+                .text-container {
+                    margin-right: 0%;
+                }
+                .leaderboad-text h2 {
+                    width: 80%;
+                    word-spacing: 6px;
+                }
+                .player-leaderboard {
+                    display: block;
+                }
+                .best-player {
+                    margin-right: 40%;
+                    width: 85%;
+                    padding: 5px;
+                    margin-top: 10px;
+                }
+                .videos-container {
+                    display: block;
+                    margin-right: 40px;
+                }
+                .videos-image img {
+                    width: 80%;
+                }
+                .watchvideos-btn {
+                    width: 36%;
+                }
+                .team-manager {
+                    background-size: cover;
+                    width: 72%;
+                    margin-left: 90px;
+                    height: 620px;
+                }
+                .team-title h1 {
+                    font-size: 20px;
+                }
+                .team-title p {
+                    font-size: 10px;
+                    color: #009b3a;
+                    text-align: justify;
+                    padding: 15px;
+                }
+                .team-title button {
+                    width: 30%;
+                }
+                .footer-logo img {
+                    width: 45%;
+                }
+                .social-icon i {
+                    padding: 10px;
+                    font-size: 20px;
+                    color: #fedf00;
+                }
+            }
+            /* Responsive for tablet */
+            
+            @media screen and (min-width: 580px) and (max-width:990px) {
+                .card-container {
+                    width: 55%;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    margin-left: 54px;
+                    /* margin-bottom: 20px; */
+                    padding-top: 15px;
+                    grid-gap: 12px;
+                }
+                .player-img {
+                    width: 100%;
+                }
+                .player-card {
+                    width: 250px;
+                }
+                .banner-container {
+                    width: 85%;
+                }
+                .banner-img img {
+                    width: 100%;
+                    margin-left: 30%;
+                }
+                .text-container {
+                    font-size: 36px;
+                }
+                .nav-ul {
+                    display: none;
+                }
+                .login-btn {
+                    margin-left: 80%;
+                    /* width: 50%; */
+                }
+                .leaderboad-text h2 {
+                    width: 90%;
+                    word-spacing: 20px;
+                }
+                .scorer-img img {
+                    margin-left: 51%;
+                    width: 50%;
+                    margin-top: 20px;
+                    margin-left: 180px;
+                }
+                .player-leaderboard {
+                    display: block;
+                }
+                .best-player {
+                    margin-right: 0%;
+                    width: 90%;
+                    margin-top: 10px;
+                    height: 30%;
+                }
+                .fa-star {
+                    width: 20%;
+                }
+                .top-scorer h5 {
+                    width: 100%;
+                }
+                .videos-container {
+                    display: block;
+                    margin-right: 40px;
+                }
+                .videos-image img {
+                    width: 80%;
+                }
+                .watchvideos-btn {
+                    width: 33%;
+                }
+                .team-manager {
+                    background-size: cover;
+                    width: 72%;
+                    margin-left: 90px;
+                    height: 500px;
+                }
+                .team-title h1 {
+                    font-size: 20px;
+                }
+                .team-title p {
+                    font-size: 10px;
+                    color: #009b3a;
+                    text-align: justify;
+                    padding: 15px;
+                }
+                .team-title button {
+                    width: 20%;
+                }
+                .footer-logo img {
+                    width: 45%;
+                }
+            }
